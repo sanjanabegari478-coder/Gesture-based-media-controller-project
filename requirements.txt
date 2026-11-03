@@ -1,0 +1,9 @@
+opencv-python>=4.8
+mediapipe>=0.10.9,<0.10.22   # needs the legacy mp.solutions API
+numpy>=1.24
+pyautogui>=0.9.54
+scikit-learn>=1.3
+pyttsx3>=2.90
+# Windows only (system volume control)
+pycaw>=20230407; sys_platform == "win32"
+comtypes>=1.2; sys_platform == "win32"
